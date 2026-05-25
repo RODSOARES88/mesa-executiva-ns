@@ -1,0 +1,12 @@
+# StatiCrypt artifacts
+.staticrypt.json
+encrypted/
+
+# Backup do HTML claro (NÃO commitar - perde a proteção da senha)
+*.claro.html
+decrypted/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
