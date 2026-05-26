@@ -1,10 +1,37 @@
 {
   "_meta": {
-    "gerado_em": "2026-05-26T12:23:12",
+    "gerado_em": "2026-05-26T12:55:51",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais (Site 1 BMG + Central). Atualizada a cada novo snapshot de dados (planilha BMG, email Thais, novas decisões).",
-    "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Diretriz da Mesa Executiva\" no topo, abaixo da barra Quick Links."
+    "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Decisão da Mesa Executiva\" no topo, abaixo da barra Quick Links."
   },
+  "decisoes_resumidas": [
+    {
+      "titulo": "Mutirão de processos prontos pra encerrar",
+      "razao_geral": "Receita caiu 31% em maio mas entradas estão estáveis · gargalo é capacidade interna · cada improcedência vale R$ 567 (ticket+bônus)",
+      "icone": "⚡"
+    },
+    {
+      "titulo": "Melhorar encerramento em RS × Fraude OU realocar pra MG × Modalidade",
+      "razao_geral": "RS tem 2.384 ações em curso com pior êxito (23.4%) · BMG redistribui volume pros melhor ranqueados · MG é nosso top",
+      "icone": "⚖️"
+    },
+    {
+      "titulo": "Priorizar argumento \"cita_cpc\" nas defesas de Modalidade",
+      "razao_geral": "Tese aparece em 29.8% das vitórias atuais · maior peso de êxito = mais bônus R$ 360 por improcedência",
+      "icone": "🎯"
+    },
+    {
+      "titulo": "Concentrar tempo de advogado em Modalidade vs Fraude",
+      "razao_geral": "Modalidade rende 13.8pp mais que Fraude no êxito · cada hora de advogado rende mais bônus em Modalidade",
+      "icone": "📈"
+    },
+    {
+      "titulo": "Força-tarefa pra fechar meta de maio",
+      "razao_geral": "Faltam 309 encerramentos pro fechamento (gap 35pp) · pace necessário 77/dia útil",
+      "icone": "🚨"
+    }
+  ],
   "sessao": {
     "data": "2026-05-26",
     "snapshot_thais": "25/05/2026",
