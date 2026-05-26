@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "gerado_em": "2026-05-26T11:53:28",
+    "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py",
+    "descricao": "Diretriz da Mesa Executiva pros sites operacionais (Site 1 BMG + Central). Atualizada a cada novo snapshot de dados (planilha BMG, email Thais, novas decisões).",
+    "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Diretriz da Mesa Executiva\" no topo, abaixo da barra Quick Links."
+  },
+  "sessao": {
+    "data": "2026-05-26",
+    "snapshot_thais": "25/05/2026",
+    "estoque_total": 10908
+  },
+  "bandeiras": [
+    {
+      "tipo": "capacidade_reduzida",
+      "severidade": "critica",
+      "titulo": "Capacidade operacional reduzida em 39%",
+      "descricao": "Receita de defesas Maio extrapolada cai vs média Jan-Abr · ajuste de equipe em andamento"
+    },
+    {
+      "tipo": "meta_em_risco",
+      "severidade": "critica",
+      "titulo": "Meta de maio em risco grave",
+      "descricao": "Realizado 45.5% · esperado 80.6% · gap 35.1pp · faltam 309 encerramentos"
+    },
+    {
+      "tipo": "gap_modalidade_fraude",
+      "severidade": "media",
+      "titulo": "Modalidade rende 13.8pp mais que Fraude",
+      "descricao": "Mod 49.6% vs Fra 35.8% · cada hora em Modalidade vale mais (bônus R$ 360 por improc)"
+    },
+    {
+      "tipo": "pior_uf",
+      "severidade": "critica",
+      "titulo": "RS é a pior UF (23.4% êxito)",
+      "descricao": "Volume alto (2.384 ações) · investigar argumentos locais"
+    },
+    {
+      "tipo": "teses_mudando",
+      "severidade": "media",
+      "titulo": "8 teses mudou de patamar Fev→Mai",
+      "descricao": "Pauta jurídica em transformação · revisar argumentos antigos"
+    }
+  ],
+  "cluster_foco": {
+    "uf": "MG",
+    "projeto": "modalidade",
+    "razao": "Melhor UF (48.5% êxito · 3.327 ações) × projeto com maior êxito (49.6%)"
+  },
+  "cluster_evitar": {
+    "uf": "RS",
+    "projeto": "fraude",
+    "razao": "Pior UF (23.4% êxito) × projeto com gap negativo (Fraude 35.8%)"
+  },
+  "tese_priorizada": {
+    "tag": "cita_cpc",
+    "frequencia": "153/513 vitórias em Modalidade",
+    "pct": 29.8
+  },
+  "meta_semanal": {
+    "encerramentos_restantes": 309,
+    "dias_uteis_restantes": 4,
+    "pace_diario_necessario": 77.2,
+    "foco": "Encerramentos de Modalidade prontos · maior êxito + bônus R$ 360 por improc",
+    "avoid": "Desperdiçar tempo em ações de Fraude em RS · pior ROI por hora"
+  },
+  "priorizar": [
+    "Argumento \"cita_cpc\" em defesas de Modalidade (29.8% das vitórias)",
+    "Modalidade em MG (48.5% êxito · maior bônus esperado)",
+    "Encerramento de sentenças já transitadas em julgado (menor risco recursal)",
+    "Acordos pós-sentença em casos com perda provável (bônus R$ 40 + reduz exposição)"
+  ],
+  "evitar": [
+    "Acordos pré-sentença em <b>Modalidade</b> em MG (êxito 49.6% — está deixando dinheiro na mesa)",
+    "Investir tempo de advogado sênior em <b>Fraude RS</b> (23.4% êxito · ROI baixo)",
+    "Distribuir capacidade igualmente — concentrar onde já somos top no cluster (Régua BMG)"
+  ],
+  "kpis_resumo": {
+    "receita_media_mes": 119309.8,
+    "maio_extrapolado": 62092.31,
+    "queda_capacidade_pct": 39.4,
+    "meta_pct": 45.5,
+    "gap_meta_pp": 35.1,
+    "taxa_exito_carteira": 39.4
+  }
+}
