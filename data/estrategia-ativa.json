@@ -9,26 +9,31 @@
     {
       "titulo": "Mutirão de processos prontos pra encerrar",
       "razao_geral": "Receita caiu 31% em maio mas entradas estão estáveis · gargalo é capacidade interna · cada improcedência vale R$ 567 (ticket+bônus)",
+      "razao_operacional": "Encerramentos caíram 31% em maio mas processos novos continuam entrando no mesmo ritmo · há processos com sentença prolatada represados · destravar fluxo é prioridade",
       "icone": "⚡"
     },
     {
       "titulo": "Melhorar encerramento em RS × Fraude OU realocar pra MG × Modalidade",
       "razao_geral": "RS tem 2.384 ações em curso com pior êxito (23.4%) · BMG redistribui volume pros melhor ranqueados · MG é nosso top",
+      "razao_operacional": "RS Fraude está com 23.4% de êxito (2.384 ações · pior do mapa) · BMG ranqueia escritórios por cluster (Região × Projeto) e distribui volume pros melhor posicionados · MG Modalidade é onde temos a melhor performance",
       "icone": "⚖️"
     },
     {
       "titulo": "Priorizar argumento \"cita_cpc\" nas defesas de Modalidade",
       "razao_geral": "Tese aparece em 29.8% das vitórias atuais · maior peso de êxito = mais bônus R$ 360 por improcedência",
+      "razao_operacional": "Argumento aparece em 29.8% das vitórias atuais de Modalidade · padronizar o uso em defesas eleva a taxa de êxito do cluster",
       "icone": "🎯"
     },
     {
       "titulo": "Concentrar tempo de advogado em Modalidade vs Fraude",
       "razao_geral": "Modalidade rende 13.8pp mais que Fraude no êxito · cada hora de advogado rende mais bônus em Modalidade",
+      "razao_operacional": "Modalidade tem 13.8pp mais êxito que Fraude · tempo de advogado em Modalidade entrega mais vitórias por hora de produção",
       "icone": "📈"
     },
     {
       "titulo": "Força-tarefa pra fechar meta de maio",
       "razao_geral": "Faltam 309 encerramentos pro fechamento (gap 35pp) · pace necessário 77/dia útil",
+      "razao_operacional": "Faltam 309 encerramentos pra bater a meta de maio com o BMG (gap 35pp do esperado) · pace necessário 77/dia útil até virada do mês",
       "icone": "🚨"
     }
   ],
