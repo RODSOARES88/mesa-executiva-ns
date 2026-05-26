@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-05-26T11:53:28",
+    "gerado_em": "2026-05-26T12:23:12",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais (Site 1 BMG + Central). Atualizada a cada novo snapshot de dados (planilha BMG, email Thais, novas decisões).",
     "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Diretriz da Mesa Executiva\" no topo, abaixo da barra Quick Links."
@@ -14,7 +14,7 @@
     {
       "tipo": "capacidade_reduzida",
       "severidade": "critica",
-      "titulo": "Capacidade operacional reduzida em 39%",
+      "titulo": "Capacidade operacional reduzida em 31%",
       "descricao": "Receita de defesas Maio extrapolada cai vs média Jan-Abr · ajuste de equipe em andamento"
     },
     {
@@ -76,9 +76,9 @@
     "Distribuir capacidade igualmente — concentrar onde já somos top no cluster (Régua BMG)"
   ],
   "kpis_resumo": {
-    "receita_media_mes": 119309.8,
-    "maio_extrapolado": 62092.31,
-    "queda_capacidade_pct": 39.4,
+    "receita_media_mes": 259696.55,
+    "maio_extrapolado": 179253,
+    "queda_capacidade_pct": 31.0,
     "meta_pct": 45.5,
     "gap_meta_pp": 35.1,
     "taxa_exito_carteira": 39.4
