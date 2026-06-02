@@ -1,124 +1,130 @@
 {
   "_meta": {
-    "gerado_em": "2026-06-02T15:00:00",
-    "fonte": "Mesa Executiva NS · sincronizado com fechamento Maio (email Beatriz 02/06) + meta Junho ativa",
-    "descricao": "Diretriz da Mesa Executiva pros sites operacionais (Site 1 BMG + Central). Atualizada a cada novo snapshot de dados (planilha BMG, email Beatriz/Thais, novas decisões).",
+    "gerado_em": "2026-06-02T13:14:19",
+    "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
+    "cenario": "fechamento_recente",
+    "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
     "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Decisão da Mesa Executiva\" no topo, abaixo da barra Quick Links."
   },
   "decisoes_resumidas": [
     {
-      "titulo": "Mutirão de Cartão Modalidade desde 01/06 · meta BMG mantida em 285",
-      "razao_geral": "Maio fechou em 42% no Cartão Modalidade (119/285) · BMG manteve a mesma meta em Junho. Cada hora em Modalidade vale 13,8pp mais que em Fraude (cluster onde temos 49,6% êxito histórico). Mutirão desde dia 1 · meta realista Junho: 190-200/285 (66-70%).",
-      "razao_operacional": "Maio fechou em 42% (119/285) no Cartão Modalidade. Junho mantém meta em 285. Squad dedicada de despacho desde dia 1 do mês · onde temos 49,6% de êxito histórico.",
+      "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/06 · meta BMG mantida em 285",
+      "razao_geral": "Mês anterior fechou em 42% nesse produto (119/285). BMG manteve a meta. Cluster onde temos 49.6% êxito histórico. Mutirão desde dia 1 · meta realista: 66-70% da meta cheia.",
+      "razao_operacional": "Mês anterior fechou em 42% (119/285) nesse produto. Mês atual mantém meta em 285. Squad dedicada de despacho desde dia 1.",
       "icone": "⚡"
     },
     {
-      "titulo": "Realocar 2 advogados de Fraude RS pra mutirão Modalidade (1ª quinzena Junho)",
-      "razao_geral": "RS Fraude tem 23,4% de êxito (pior cluster) · ROI por advogado-hora baixo · cada hora aplicada em Modalidade rende mais bônus por improcedência (R$ 360). Realocação temporária pra recuperar Cartão Modalidade em Junho.",
-      "razao_operacional": "RS Fraude está com 23,4% de êxito (pior cluster da carteira) · realocar 2 advogados temporariamente pra Cartão Modalidade na 1ª quinzena de Junho. Fraude RS pode esperar.",
+      "titulo": "Realocar 2 advogados de Fraude RS pra mutirão Modalidade (1ª quinzena)",
+      "razao_geral": "RS Fraude tem 23.4% de êxito (pior cluster) · ROI por advogado-hora baixo · cada hora em Modalidade rende mais bônus por improcedência. Realocação temporária pra recuperar Cartão Modalidade.",
+      "razao_operacional": "RS Fraude está com 23.4% de êxito (pior cluster da carteira) · realocar 2 advogados temporariamente pra Cartão Modalidade na 1ª quinzena. Fraude RS pode esperar.",
       "icone": "⚖️"
     },
     {
       "titulo": "Reforma cirúrgica nos modelos de Fraude · CLO entrega 15/06",
-      "razao_geral": "Fraude tem 35,8% êxito vs Modalidade 49,6% · gap não é tribunal, é arsenal desatualizado (6 modelos do SharePoint usam argumentos pré-2025). CLO faz revisão usando teses vencedoras reais. Frutos em Julho (não em Junho).",
-      "razao_operacional": "Modelos de Fraude SharePoint usam argumentos pré-2025 · CLO entrega revisão até 15/06 usando teses vencedoras reais (Tema 1.328, Tema 1.414). Frutos em Julho.",
+      "razao_geral": "Fraude tem 35.8% êxito vs Modalidade 49.6% · gap não é tribunal, é arsenal desatualizado. CLO faz revisão usando teses vencedoras reais. Frutos no mês seguinte.",
+      "razao_operacional": "Modelos de Fraude SharePoint usam argumentos pré-2025 · CLO entrega revisão até 15/06 usando teses vencedoras reais (Tema 1.328, Tema 1.414). Frutos no mês seguinte.",
       "icone": "🔧"
     },
     {
       "titulo": "Monitoramento diário de pace · alarme se cair abaixo de 12/dia útil",
-      "razao_geral": "Pace Maio desacelerou em cascata: 15,2/dia útil → 11,2 → ~6,2 na última semana. Junho precisa de monitoramento diário pra não repetir. Pace necessário Modalidade: 13-14/dia útil só de Modalidade.",
-      "razao_operacional": "Maio desacelerou de 15/dia útil pra 6/dia. Junho · monitoramento diário · alarme se cair abaixo de 12/dia útil · métrica diária por advogado · ranking interno.",
+      "razao_geral": "Pace caiu em cascata: 15.2/dia → 11.2 → 6.2 na última semana. Mês atual precisa de monitoramento diário pra não repetir.",
+      "razao_operacional": "Mês anterior desacelerou de 15.2/dia útil pra 6.2/dia. Mês atual · monitoramento diário · alarme se cair abaixo de 12/dia útil · métrica por advogado.",
       "icone": "📊"
     },
     {
       "titulo": "Priorizar argumento \"cita_cpc\" nas defesas de Modalidade",
-      "razao_geral": "Tese aparece em 29,8% das vitórias atuais em Modalidade · padronizar uso eleva taxa de êxito do cluster · combinado com mutirão de despacho potencializa o resultado de Junho.",
-      "razao_operacional": "Argumento aparece em 29,8% das vitórias atuais de Modalidade · padronizar o uso em defesas eleva a taxa de êxito do cluster.",
+      "razao_geral": "Tese aparece em 29.8% das vitórias atuais · padronizar uso eleva taxa de êxito do cluster (Modalidade 49.6% atual)",
+      "razao_operacional": "Argumento aparece em 29.8% das vitórias atuais de Modalidade · padronizar o uso em defesas eleva a taxa de êxito do cluster",
       "icone": "🎯"
     }
   ],
   "sessao": {
     "data": "2026-06-02",
-    "snapshot_fechamento": "31/05/2026 (Beatriz Duarte 02/06)",
-    "snapshot_thais": "25/05/2026",
+    "cenario": "fechamento_recente",
+    "snapshot_fechamento": "Email Beatriz Duarte 02/06/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
     {
-      "tipo": "maio_fechou_baixo",
+      "tipo": "mes_fechou_baixo",
       "severidade": "critica",
-      "titulo": "Maio fechou em 47,7% (283/593) · pior fechamento recente",
-      "descricao": "Cartão Modalidade — destaque do BMG — fechou em apenas 42% (119/285). Pace desacelerou em cascata: 15,2/dia → 11,2 → ~6,2."
+      "titulo": "Maio fechou em 47.7% (283/593)",
+      "descricao": "Resultado abaixo da meta acordada com BMG · fonte: Email Beatriz Duarte 02/06/2026"
     },
     {
-      "tipo": "cartao_modalidade_falhou",
+      "tipo": "destaque_bmg_falhou",
       "severidade": "critica",
-      "titulo": "Cartão Modalidade falhou onde tínhamos vantagem (49,6% êxito histórico)",
-      "descricao": "BMG manteve meta de 285 em Junho · pressão clara pra recuperar onde estruturalmente somos fortes."
-    },
-    {
-      "tipo": "gap_modalidade_fraude",
-      "severidade": "media",
-      "titulo": "Modalidade rende 13,8pp mais que Fraude",
-      "descricao": "Mod 49,6% vs Fra 35,8% · cada hora em Modalidade vale mais (bônus R$ 360 por improc)"
-    },
-    {
-      "tipo": "pior_uf",
-      "severidade": "critica",
-      "titulo": "RS é a pior UF (23,4% êxito)",
-      "descricao": "Volume alto (2.384 ações) · realocação temporária pra Cartão Modalidade em Junho · Fraude RS adiada até 30/06"
+      "titulo": "CARTÃO - NÃO RECONHECE MODALIDADE falhou em 41.8% (119/285)",
+      "descricao": "Produto destacado pelo BMG no email. Onde tínhamos vantagem estrutural · gargalo foi operacional, não jurídico."
     },
     {
       "tipo": "pace_desacelerou",
       "severidade": "media",
-      "titulo": "Pace Maio caiu em cascata: 15,2 → 11,2 → ~6,2/dia útil",
-      "descricao": "Tendência preocupante · Junho precisa de monitoramento diário pra não repetir"
+      "titulo": "Pace caiu em cascata: 15.2 → 11.2 → 6.2/dia útil",
+      "descricao": "Tendência preocupante · próximo mês exige monitoramento diário pra não repetir"
+    },
+    {
+      "tipo": "gap_modalidade_fraude",
+      "severidade": "media",
+      "titulo": "Modalidade rende 13.8pp mais que Fraude",
+      "descricao": "Mod 49.6% vs Fra 35.8% · cada hora em Modalidade vale mais"
+    },
+    {
+      "tipo": "pior_uf",
+      "severidade": "critica",
+      "titulo": "RS é a pior UF (23.4% êxito)",
+      "descricao": "Volume alto (2.384 ações) · realocação temporária pra Cartão Modalidade"
+    },
+    {
+      "tipo": "teses_mudando",
+      "severidade": "media",
+      "titulo": "8 teses mudou de patamar Fev→Mai",
+      "descricao": "Pauta jurídica em transformação · revisar argumentos antigos"
     }
   ],
   "cluster_foco": {
     "uf": "MG",
     "projeto": "modalidade",
-    "razao": "Melhor UF (48,5% êxito · 3.327 ações) × projeto com maior êxito (49,6%) · meta BMG Junho 285 em Modalidade"
+    "razao": "Melhor UF (48.5% êxito · 3.327 ações) × projeto com maior êxito (49.6%)"
   },
   "cluster_evitar": {
     "uf": "RS",
     "projeto": "fraude",
-    "razao": "Pior UF (23,4% êxito) × projeto com gap negativo (Fraude 35,8%) · adiada até 30/06 só"
+    "razao": "Pior UF (23.4% êxito) × projeto com gap negativo (Fraude 35.8%)"
   },
   "tese_priorizada": {
     "tag": "cita_cpc",
     "frequencia": "153/513 vitórias em Modalidade",
     "pct": 29.8
   },
-  "meta_junho": {
+  "meta_mes_ativo": {
+    "mes": "2026-06",
     "total_meta": 591,
-    "cartao_modalidade_meta": 285,
-    "cartao_modalidade_realista": 200,
-    "dias_uteis_restantes_mes": 20,
-    "pace_diario_necessario_modalidade": 14,
-    "foco": "Cartão Modalidade desde dia 1 (mutirão dedicado) · BMG mantém meta 285 apesar de Maio em 119",
-    "avoid": "Distração com Fraude RS · adiada até 30/06"
+    "destaque_meta": 285,
+    "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
+    "dias_uteis_restantes_mes": 21,
+    "pace_diario_necessario_destaque": 13.6,
+    "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
+    "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
   "priorizar": [
-    "Cartão Modalidade em MG e SP (mutirão dedicado Junho · 49,6% êxito · maior bônus esperado)",
+    "CARTÃO - NÃO RECONHECE MODALIDADE em MG e SP (mutirão dedicado · 49.6% êxito histórico)",
+    "Argumento \"cita_cpc\" em defesas de Modalidade (29.8% das vitórias atuais)",
     "Sentenças já transitadas em julgado em Modalidade (menor risco recursal · despacho disciplinado)",
-    "Argumento \"cita_cpc\" em defesas de Modalidade (29,8% das vitórias atuais)",
     "Acordos pós-sentença em casos com perda provável (bônus R$ 40 + reduz exposição)"
   ],
   "evitar": [
-    "Acordos pré-sentença em <b>Modalidade</b> em MG (êxito 49,6% — está deixando dinheiro na mesa)",
-    "Investir tempo de advogado sênior em <b>Fraude RS</b> em Junho (23,4% êxito · ROI baixo · adiada até 30/06)",
-    "Distribuir capacidade igualmente — Junho exige concentração em Cartão Modalidade"
+    "Acordos pré-sentença em <b>Modalidade</b> em MG (êxito 49.6% — deixando dinheiro na mesa)",
+    "Investir tempo de advogado sênior em <b>Fraude RS</b> (23.4% êxito · ROI baixo)",
+    "Distribuir capacidade igualmente — concentrar no destaque do BMG"
   ],
   "kpis_resumo": {
     "receita_media_mes_jan_abr": 259696.55,
-    "maio_fechado": 171925.20,
+    "maio_receita": 171925.2,
     "queda_receita_pct": 33.8,
-    "meta_pct_fechamento_maio": 47.7,
-    "gap_meta_pp": 52.3,
     "taxa_exito_carteira": 39.4,
-    "cartao_modalidade_meta_jun": 285,
-    "cartao_modalidade_realizado_mai": 119,
-    "cartao_modalidade_pct_mai": 41.8
+    "mes_fechado_pct": 47.7,
+    "destaque_bmg_meta": 285,
+    "destaque_bmg_realizado_anterior": 119
   }
 }
