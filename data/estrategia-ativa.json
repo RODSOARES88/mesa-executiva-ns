@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-06-02T13:14:19",
+    "gerado_em": "2026-06-02T13:17:09",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -40,8 +40,11 @@
   ],
   "sessao": {
     "data": "2026-06-02",
+    "data_br": "02/06/2026",
+    "snapshot_data": "02/06/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Email Beatriz Duarte 02/06/2026",
+    "snapshot_thais": "02/06/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
