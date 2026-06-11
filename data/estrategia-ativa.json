@@ -1,12 +1,40 @@
 {
   "_meta": {
-    "gerado_em": "2026-06-10T12:46:21",
+    "gerado_em": "2026-06-11T12:41:30",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
-    "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Decisão da Mesa Executiva\" no topo, abaixo da barra Quick Links."
+    "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Decisão da Mesa Executiva\" no topo, abaixo da barra Quick Links.",
+    "descobertas_1106_incorporadas": true,
+    "fontes_novas": [
+      "Gestor Juridico 10/06 (carteira ATIVA real)",
+      "Casos novos Ano 2026 YTD 3.636 + ONDA Mai",
+      "Reembolsos 09/06 snapshot · 174 itens R$ 109k",
+      "Defesas semana 02-08/06 · top Thais 24%"
+    ]
   },
   "decisoes_resumidas": [
+    {
+      "titulo": "Acionar BMG sobre demora em reembolsos · R$ 109k parados",
+      "razao_geral": "174 reembolsos pendentes · 70% >12 meses · max 34 meses. BMG esta atrasando muito alem do normal. Vale carta/cobranca formal ao financeiro/juridico do banco.",
+      "razao_operacional": "Capital de giro do escritorio retido · cresce risco de inadimplencia. Snapshot 09/06.",
+      "tipo_motivo": "capital_parado",
+      "motivo_curto": "BMG demorando reembolsar"
+    },
+    {
+      "titulo": "Plano de absorcao da ONDA Mai · 2.068 entradas (5,6x a media)",
+      "razao_geral": "Maio teve 2.068 entradas reais (Aquila so via 180). Sudeste concentrou 72,5% (SP+RJ+MG). Equipe foi pega de surpresa, velocity despencou. Pode repetir.",
+      "razao_operacional": "Avaliar contratar reforco temporario OU repactuar SLA com BMG enquanto se absorve o pico.",
+      "tipo_motivo": "capacidade_estourada",
+      "motivo_curto": "ONDA territorial Sudeste"
+    },
+    {
+      "titulo": "Sprint de limpeza de aging · 773 causas >5 anos",
+      "razao_geral": "5,8% da carteira ativa tem mais de 5 anos · risco direto de prescricao. Outras 2.779 (20,9%) estao entre 3-5 anos. Limpar reduz exposicao e libera atencao da equipe.",
+      "razao_operacional": "Sprint dedicada · encerrar/extinguir causas antigas via desistencia, prescricao, ou acordo final.",
+      "tipo_motivo": "limpeza_legado",
+      "motivo_curto": "Causas antigas"
+    },
     {
       "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/06 · meta BMG mantida em 285",
       "razao_geral": "Mês anterior fechou em 42% nesse produto (119/285). BMG manteve a meta. Cluster onde temos 49.6% êxito histórico. Mutirão desde dia 1 · meta realista: 66-70% da meta cheia.",
@@ -39,15 +67,35 @@
     }
   ],
   "sessao": {
-    "data": "2026-06-10",
-    "data_br": "10/06/2026",
-    "snapshot_data": "10/06/2026",
+    "data": "2026-06-11",
+    "data_br": "11/06/2026",
+    "snapshot_data": "11/06/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Email Beatriz Duarte 02/06/2026",
-    "snapshot_thais": "10/06/2026",
-    "estoque_total": 10908
+    "snapshot_thais": "11/06/2026",
+    "estoque_total": 13285,
+    "estoque_total_obs": "real Gestor Juridico 10/06 (vs Aquila 11.085)",
+    "descoberta_onda_mai": true
   },
   "bandeiras": [
+    {
+      "tipo": "onda_mai_descoberta",
+      "severidade": "critica",
+      "titulo": "ONDA Mai · 2.068 entradas (5,6x a media Jan-Abr)",
+      "descricao": "Aquila subestimou 11,5x (mostrou 180, real 2.068). Concentracao Sudeste: SP 568 + RJ 496 + MG 435 = 72,5% da onda. Provavel campanha de captacao por algum agressor. Pode repetir."
+    },
+    {
+      "tipo": "reembolsos_aging_critico",
+      "severidade": "critica",
+      "titulo": "R$ 109.598 parados em reembolsos (174 itens · 70% >12m)",
+      "descricao": "Snapshot 09/06: 174 itens pendentes · 69,5% (121 itens) >12 meses esperando · tempo medio 15,3m · max 34m. BMG demorando muito mais que normal. Vale acionar contato comercial."
+    },
+    {
+      "tipo": "carteira_crescimento",
+      "severidade": "alta",
+      "titulo": "Carteira ATIVA cresceu +2.200 em 27 dias (11.085 → 13.285)",
+      "descricao": "Gestor Juridico 10/06 mostra base ATIVA real 13.285 (vs Aquila 11.085). Crescimento concentrado: SP +598 (+53%), MG +541, RS +251. Aging critico: 773 causas (5,8%) >5 anos · risco prescricao."
+    },
     {
       "tipo": "mes_fechou_baixo",
       "severidade": "critica",
@@ -105,8 +153,8 @@
     "total_meta": 591,
     "destaque_meta": 285,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 15,
-    "pace_diario_necessario_destaque": 19.0,
+    "dias_uteis_restantes_mes": 14,
+    "pace_diario_necessario_destaque": 20.4,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
@@ -128,6 +176,20 @@
     "taxa_exito_carteira": 39.4,
     "mes_fechado_pct": 47.7,
     "destaque_bmg_meta": 285,
-    "destaque_bmg_realizado_anterior": 119
+    "destaque_bmg_realizado_anterior": 119,
+    "carteira_ativa_real": 13285,
+    "carteira_aquila": 11085,
+    "carteira_crescimento_27d": 2200,
+    "entradas_ytd_2026": 3636,
+    "entradas_pico_mai": 2068,
+    "entradas_aquila_subestimou_fator": 11.5,
+    "reembolsos_pendentes_qtd": 174,
+    "reembolsos_pendentes_valor": 109598,
+    "reembolsos_acima_12m_pct": 69.5,
+    "aging_5plus_anos_qtd": 773,
+    "aging_5plus_anos_pct": 5.8,
+    "defesas_semana_02_08_06": 58,
+    "defesas_semana_top_nome": "Thais Werneck Rocha",
+    "defesas_semana_top_pct": 24
   }
 }
