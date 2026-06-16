@@ -17,6 +17,13 @@
   },
   "decisoes_resumidas": [
     {
+      "titulo": "SPRINT DE LIMPEZA DE ZUMBIS · 3.573 causas >3 anos · 90 dias",
+      "razao_geral": "Pool descoberto de 3.573 causas EM CURSO ha mais de 3 anos (27% da carteira ATIVA · 5x maior que estimativa anterior). Trabalhar em 3 ondas (prescricao, desistencia, acordo final) com a equipe Recursal. Meta de +150 enc/mes contribuindo pra meta BMG.",
+      "razao_operacional": "Beatriz aprova lista priorizada · equipe Recursal executa. Iniciar plano ate 20/06. Esperado: +450 encerramentos em 90 dias = contribuicao direta ao gap Jun.",
+      "tipo_motivo": "limpeza_legado_estrutural",
+      "motivo_curto": "Sprint de Zumbis 90d"
+    },
+    {
       "titulo": "PLANO DE EMERGENCIA JUN · convocar reuniao com BMG ate 18/06",
       "razao_geral": "Jun fechando em 26% da meta · pior mes do ano · Cartao Modalidade em 23% (destaque BMG). Risco de perda de bonus anual + repactuacao contratual desfavoravel. Precisa de plano de recuperacao Q3 estruturado.",
       "razao_operacional": "Reuniao com Beatriz Duarte e/ou stakeholders BMG ate 18/06 · apresentar diagnostico + plano de recuperacao Q3 (capacidade, alocacao, foco em Modalidade).",
@@ -87,6 +94,12 @@
     "descoberta_onda_mai": true
   },
   "bandeiras": [
+    {
+      "tipo": "sprint_zumbis_oportunidade",
+      "severidade": "alta_oportunidade",
+      "titulo": "3.573 causas EM CURSO ha mais de 3 anos (27% da carteira ATIVA) · pool ZUMBIS descoberto",
+      "descricao": "Gerencial Carteira 16/06 revela tempo medio em curso 24,4 meses (mediana 18,4m). 27% (3.573) tem mais de 3 anos sem encerrar · 5x maior que estimativa anterior (que olhava so >5 anos). Sub-segmentacao: 2.788 (3-5a) + 785 (>5a). Pool concreto pra Sprint de Limpeza de 90 dias."
+    },
     {
       "tipo": "jun_catastrofico_email_beatriz",
       "severidade": "critica_emergencia",
@@ -201,7 +214,7 @@
     "reembolsos_pendentes_qtd": 174,
     "reembolsos_pendentes_valor": 109598,
     "reembolsos_acima_12m_pct": 69.5,
-    "aging_5plus_anos_qtd": 773,
+    "aging_5plus_anos_qtd": 785,
     "aging_5plus_anos_pct": 5.8,
     "defesas_semana_02_08_06": 58,
     "defesas_semana_top_nome": "Thais Werneck Rocha",
@@ -216,6 +229,13 @@
       "abr": 52.1,
       "mai": 47.7,
       "jun": 26.0
-    }
+    },
+    "aging_3plus_anos_qtd": 3573,
+    "aging_3plus_anos_pct": 27.0,
+    "aging_3_5_anos_qtd": 2788,
+    "tempo_medio_em_curso_meses": 24.4,
+    "tempo_total_mediana_meses": 15.0,
+    "em_curso_real": 13285,
+    "encerradas_acumulado": 33567
   }
 }
