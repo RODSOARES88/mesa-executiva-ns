@@ -7,13 +7,22 @@
     "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Decisão da Mesa Executiva\" no topo, abaixo da barra Quick Links.",
     "descobertas_1106_incorporadas": true,
     "fontes_novas": [
+      "Email Beatriz Duarte 16/06/2026 (Jun parcial por produto)",
       "Gestor Juridico 10/06 (carteira ATIVA real)",
       "Casos novos Ano 2026 YTD 3.636 + ONDA Mai",
       "Reembolsos 09/06 snapshot · 174 itens R$ 109k",
       "Defesas semana 02-08/06 · top Thais 24%"
-    ]
+    ],
+    "email_beatriz_1606_incorporado": true
   },
   "decisoes_resumidas": [
+    {
+      "titulo": "PLANO DE EMERGENCIA JUN · convocar reuniao com BMG ate 18/06",
+      "razao_geral": "Jun fechando em 26% da meta · pior mes do ano · Cartao Modalidade em 23% (destaque BMG). Risco de perda de bonus anual + repactuacao contratual desfavoravel. Precisa de plano de recuperacao Q3 estruturado.",
+      "razao_operacional": "Reuniao com Beatriz Duarte e/ou stakeholders BMG ate 18/06 · apresentar diagnostico + plano de recuperacao Q3 (capacidade, alocacao, foco em Modalidade).",
+      "tipo_motivo": "emergencia_contratual",
+      "motivo_curto": "Jun catastrofico 26% meta"
+    },
     {
       "titulo": "Acionar BMG sobre demora em reembolsos · R$ 109k parados",
       "razao_geral": "174 reembolsos pendentes · 70% >12 meses · max 34 meses. BMG esta atrasando muito alem do normal. Vale carta/cobranca formal ao financeiro/juridico do banco.",
@@ -78,6 +87,12 @@
     "descoberta_onda_mai": true
   },
   "bandeiras": [
+    {
+      "tipo": "jun_catastrofico_email_beatriz",
+      "severidade": "critica_emergencia",
+      "titulo": "JUN fechando em 26% da meta · pior mes 2026 · email Beatriz 16/06",
+      "descricao": "Encerrados parcial 114 / meta 482 = 26% · projetado 125 fim mes. Trajetoria de queda Mar 86% → Abr 52% → Mai 48% → Jun 26% (-22pp). CARTAO MODALIDADE pior: 49/232 = 23,2% (destaque BMG segregado). Risco real de perda de bonus + repactuacao desfavoravel."
+    },
     {
       "tipo": "onda_mai_descoberta",
       "severidade": "critica",
@@ -190,6 +205,17 @@
     "aging_5plus_anos_pct": 5.8,
     "defesas_semana_02_08_06": 58,
     "defesas_semana_top_nome": "Thais Werneck Rocha",
-    "defesas_semana_top_pct": 24
+    "defesas_semana_top_pct": 24,
+    "jun_meta_total": 482,
+    "jun_realizado_parcial": 114,
+    "jun_projetado": 125.4,
+    "jun_pct_meta": 26.0,
+    "jun_pct_meta_modalidade": 23.2,
+    "trajetoria_pct_meta": {
+      "mar": 85.8,
+      "abr": 52.1,
+      "mai": 47.7,
+      "jun": 26.0
+    }
   }
 }
