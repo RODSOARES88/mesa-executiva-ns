@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-06-25T11:15:59",
+    "gerado_em": "2026-06-30T11:31:50",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -9,42 +9,37 @@
   "decisoes_resumidas": [
     {
       "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/06 · meta BMG mantida em 285",
-      "razao_geral": "Mês anterior fechou em 42% nesse produto (119/285). BMG manteve a meta. Cluster onde temos 49.6% êxito histórico. Mutirão desde dia 1 · meta realista: 66-70% da meta cheia.",
       "razao_operacional": "Mês anterior fechou em 42% (119/285) nesse produto. Mês atual mantém meta em 285. Squad dedicada de despacho desde dia 1.",
       "icone": "⚡"
     },
     {
       "titulo": "Realocar 2 advogados de Fraude RS pra mutirão Modalidade (1ª quinzena)",
-      "razao_geral": "RS Fraude tem 23.4% de êxito (pior cluster) · ROI por advogado-hora baixo · cada hora em Modalidade rende mais bônus por improcedência. Realocação temporária pra recuperar Cartão Modalidade.",
       "razao_operacional": "RS Fraude está com 23.4% de êxito (pior cluster da carteira) · realocar 2 advogados temporariamente pra Cartão Modalidade na 1ª quinzena. Fraude RS pode esperar.",
       "icone": "⚖️"
     },
     {
       "titulo": "Reforma cirúrgica nos modelos de Fraude · CLO entrega 15/06",
-      "razao_geral": "Fraude tem 35.8% êxito vs Modalidade 49.6% · gap não é tribunal, é arsenal desatualizado. CLO faz revisão usando teses vencedoras reais. Frutos no mês seguinte.",
       "razao_operacional": "Modelos de Fraude SharePoint usam argumentos pré-2025 · CLO entrega revisão até 15/06 usando teses vencedoras reais (Tema 1.328, Tema 1.414). Frutos no mês seguinte.",
       "icone": "🔧"
     },
     {
       "titulo": "Monitoramento diário de pace · alarme se cair abaixo de 12/dia útil",
-      "razao_geral": "Pace caiu em cascata: 15.2/dia → 11.2 → 6.2 na última semana. Mês atual precisa de monitoramento diário pra não repetir.",
       "razao_operacional": "Mês anterior desacelerou de 15.2/dia útil pra 6.2/dia. Mês atual · monitoramento diário · alarme se cair abaixo de 12/dia útil · métrica por advogado.",
       "icone": "📊"
     },
     {
       "titulo": "Priorizar argumento \"cita_cpc\" nas defesas de Modalidade",
-      "razao_geral": "Tese aparece em 29.8% das vitórias atuais · padronizar uso eleva taxa de êxito do cluster (Modalidade 49.6% atual)",
       "razao_operacional": "Argumento aparece em 29.8% das vitórias atuais de Modalidade · padronizar o uso em defesas eleva a taxa de êxito do cluster",
       "icone": "🎯"
     }
   ],
   "sessao": {
-    "data": "2026-06-25",
-    "data_br": "25/06/2026",
-    "snapshot_data": "25/06/2026",
+    "data": "2026-06-30",
+    "data_br": "30/06/2026",
+    "snapshot_data": "30/06/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Email Beatriz Duarte 02/06/2026",
-    "snapshot_thais": "25/06/2026",
+    "snapshot_thais": "30/06/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -105,8 +100,8 @@
     "total_meta": 591,
     "destaque_meta": 285,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 4,
-    "pace_diario_necessario_destaque": 71.2,
+    "dias_uteis_restantes_mes": 1,
+    "pace_diario_necessario_destaque": 285.0,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
@@ -114,17 +109,14 @@
     "CARTÃO - NÃO RECONHECE MODALIDADE em MG e SP (mutirão dedicado · 49.6% êxito histórico)",
     "Argumento \"cita_cpc\" em defesas de Modalidade (29.8% das vitórias atuais)",
     "Sentenças já transitadas em julgado em Modalidade (menor risco recursal · despacho disciplinado)",
-    "Acordos pós-sentença em casos com perda provável (bônus R$ 40 + reduz exposição)"
+    "Acordos pós-sentença em casos com perda provável (reduz exposição e encerra mais rápido)"
   ],
   "evitar": [
-    "Acordos pré-sentença em <b>Modalidade</b> em MG (êxito 49.6% — deixando dinheiro na mesa)",
-    "Investir tempo de advogado sênior em <b>Fraude RS</b> (23.4% êxito · ROI baixo)",
+    "Acordos pré-sentença em <b>Modalidade</b> em MG (temos 49.6% de êxito — vale levar até a sentença)",
+    "Concentrar tempo de advogado sênior em <b>Fraude RS</b> (23.4% êxito · rende mais em Modalidade)",
     "Distribuir capacidade igualmente — concentrar no destaque do BMG"
   ],
   "kpis_resumo": {
-    "receita_media_mes_jan_abr": 259696.55,
-    "maio_receita": 171925.2,
-    "queda_receita_pct": 33.8,
     "taxa_exito_carteira": 39.4,
     "mes_fechado_pct": 47.7,
     "destaque_bmg_meta": 285,
