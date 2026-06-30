@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-06-30T11:34:59",
+    "gerado_em": "2026-06-30T12:28:47",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -23,6 +23,12 @@
       "titulo": "Subir o ranking em 2 clusters via reforma de tese",
       "razao_operacional": "Reformar a tese onde o êxito está abaixo da meta: Sul · Não Reconhece Modalidade e Sudeste · Autor Reincidente. Subir o ranking nesses clusters faz o BMG mandar mais casos daquele tipo.",
       "icone": "📈",
+      "origem": "conselho"
+    },
+    {
+      "titulo": "Manter o peticionamento de litispendência + fraude sem perícia",
+      "razao_operacional": "Continuar acelerando o encerramento: peticionamento nos processos com litispendência (busca extinção sem resolução do mérito) e nos de fraude pedindo prosseguimento sem perícia. Reduz o tempo de tramitação e antecipa o encerramento.",
+      "icone": "⚙️",
       "origem": "conselho"
     },
     {
