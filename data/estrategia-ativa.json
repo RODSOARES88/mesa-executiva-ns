@@ -1,12 +1,30 @@
 {
   "_meta": {
-    "gerado_em": "2026-06-30T11:31:50",
+    "gerado_em": "2026-06-30T11:34:59",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
     "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Decisão da Mesa Executiva\" no topo, abaixo da barra Quick Links."
   },
   "decisoes_resumidas": [
+    {
+      "titulo": "Reformar a tese de Cartão Modalidade + cortar revelia",
+      "razao_operacional": "É onde o êxito está mais fraco (Cartão · Não Reconhece Modalidade · mês fechou em 42%). Reformar a tese desse produto e fazer double-check de cada audiência pra não perder por revelia.",
+      "icone": "🩹",
+      "origem": "conselho"
+    },
+    {
+      "titulo": "Sprint de modelos: Apelação de fraude + Contestação de Cadastro",
+      "razao_operacional": "Revisar a Apelação de fraude \"recebimento de valores\" usando o precedente Hoepers/TRF2 (o banco já endossou a tese) e criar a Contestação de Cadastro do zero — é lacuna no acervo, com ~519 casos/ano esperando.",
+      "icone": "💡",
+      "origem": "conselho"
+    },
+    {
+      "titulo": "Subir o ranking em 2 clusters via reforma de tese",
+      "razao_operacional": "Reformar a tese onde o êxito está abaixo da meta: Sul · Não Reconhece Modalidade e Sudeste · Autor Reincidente. Subir o ranking nesses clusters faz o BMG mandar mais casos daquele tipo.",
+      "icone": "📈",
+      "origem": "conselho"
+    },
     {
       "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/06 · meta BMG mantida em 285",
       "razao_operacional": "Mês anterior fechou em 42% (119/285) nesse produto. Mês atual mantém meta em 285. Squad dedicada de despacho desde dia 1.",
