@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-06-30T12:28:47",
+    "gerado_em": "2026-07-01T11:31:28",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -58,12 +58,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-06-30",
-    "data_br": "30/06/2026",
-    "snapshot_data": "30/06/2026",
+    "data": "2026-07-01",
+    "data_br": "01/07/2026",
+    "snapshot_data": "01/07/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Email Beatriz Duarte 02/06/2026",
-    "snapshot_thais": "30/06/2026",
+    "snapshot_thais": "01/07/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -124,7 +124,7 @@
     "total_meta": 591,
     "destaque_meta": 285,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 1,
+    "dias_uteis_restantes_mes": 0,
     "pace_diario_necessario_destaque": 285.0,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
