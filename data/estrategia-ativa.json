@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-07-01T11:31:28",
+    "gerado_em": "2026-07-06T11:27:04",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -32,6 +32,12 @@
       "origem": "conselho"
     },
     {
+      "titulo": "Varredura de óbito no estoque com mais de 5 anos (774 processos)",
+      "razao_operacional": "Verificar óbito dos autores nos processos com mais de 5 anos (lista distribuída pela coordenação). Achado óbito → petição de extinção por perda do objeto, citando o precedente TJRJ 0815672-49 endossado pelo banco (SE LIGA Jul/26). Encerramento rápido de casos parados e melhora do aging.",
+      "icone": "🗂️",
+      "origem": "conselho"
+    },
+    {
       "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/06 · meta BMG mantida em 285",
       "razao_operacional": "Mês anterior fechou em 42% (119/285) nesse produto. Mês atual mantém meta em 285. Squad dedicada de despacho desde dia 1.",
       "icone": "⚡"
@@ -58,12 +64,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-07-01",
-    "data_br": "01/07/2026",
-    "snapshot_data": "01/07/2026",
+    "data": "2026-07-06",
+    "data_br": "06/07/2026",
+    "snapshot_data": "06/07/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Email Beatriz Duarte 02/06/2026",
-    "snapshot_thais": "01/07/2026",
+    "snapshot_thais": "06/07/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
