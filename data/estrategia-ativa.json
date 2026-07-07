@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-07-06T11:27:04",
+    "gerado_em": "2026-07-07T11:03:31",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -38,11 +38,6 @@
       "origem": "conselho"
     },
     {
-      "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/06 · meta BMG mantida em 285",
-      "razao_operacional": "Mês anterior fechou em 42% (119/285) nesse produto. Mês atual mantém meta em 285. Squad dedicada de despacho desde dia 1.",
-      "icone": "⚡"
-    },
-    {
       "titulo": "Realocar 2 advogados de Fraude RS pra mutirão Modalidade (1ª quinzena)",
       "razao_operacional": "RS Fraude está com 23.4% de êxito (pior cluster da carteira) · realocar 2 advogados temporariamente pra Cartão Modalidade na 1ª quinzena. Fraude RS pode esperar.",
       "icone": "⚖️"
@@ -53,43 +48,26 @@
       "icone": "🔧"
     },
     {
-      "titulo": "Monitoramento diário de pace · alarme se cair abaixo de 12/dia útil",
-      "razao_operacional": "Mês anterior desacelerou de 15.2/dia útil pra 6.2/dia. Mês atual · monitoramento diário · alarme se cair abaixo de 12/dia útil · métrica por advogado.",
-      "icone": "📊"
-    },
-    {
       "titulo": "Priorizar argumento \"cita_cpc\" nas defesas de Modalidade",
       "razao_operacional": "Argumento aparece em 29.8% das vitórias atuais de Modalidade · padronizar o uso em defesas eleva a taxa de êxito do cluster",
       "icone": "🎯"
     }
   ],
   "sessao": {
-    "data": "2026-07-06",
-    "data_br": "06/07/2026",
-    "snapshot_data": "06/07/2026",
+    "data": "2026-07-07",
+    "data_br": "07/07/2026",
+    "snapshot_data": "07/07/2026",
     "cenario": "fechamento_recente",
-    "snapshot_fechamento": "Email Beatriz Duarte 02/06/2026",
-    "snapshot_thais": "06/07/2026",
+    "snapshot_fechamento": "Meta original 591 (email BMG mai) REVISTA pra 482 (email Beatriz 16/06 · destaque 232)",
+    "snapshot_thais": "07/07/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
     {
       "tipo": "mes_fechou_baixo",
       "severidade": "critica",
-      "titulo": "Maio fechou em 47.7% (283/593)",
-      "descricao": "Resultado abaixo da meta acordada com BMG · fonte: Email Beatriz Duarte 02/06/2026"
-    },
-    {
-      "tipo": "destaque_bmg_falhou",
-      "severidade": "critica",
-      "titulo": "CARTÃO - NÃO RECONHECE MODALIDADE falhou em 41.8% (119/285)",
-      "descricao": "Produto destacado pelo BMG no email. Onde tínhamos vantagem estrutural · gargalo foi operacional, não jurídico."
-    },
-    {
-      "tipo": "pace_desacelerou",
-      "severidade": "media",
-      "titulo": "Pace caiu em cascata: 15.2 → 11.2 → 6.2/dia útil",
-      "descricao": "Tendência preocupante · próximo mês exige monitoramento diário pra não repetir"
+      "titulo": "Junho fechou em 65.8% (317/482)",
+      "descricao": "Resultado abaixo da meta acordada com BMG · fonte: Meta original 591 (email BMG mai) REVISTA pra 482 (email Beatriz 16/06 · destaque 232)"
     },
     {
       "tipo": "gap_modalidade_fraude",
@@ -126,12 +104,12 @@
     "pct": 29.8
   },
   "meta_mes_ativo": {
-    "mes": "2026-06",
-    "total_meta": 591,
-    "destaque_meta": 285,
+    "mes": "2026-07",
+    "total_meta": 566,
+    "destaque_meta": 269,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 0,
-    "pace_diario_necessario_destaque": 285.0,
+    "dias_uteis_restantes_mes": 19,
+    "pace_diario_necessario_destaque": 14.2,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
@@ -148,8 +126,8 @@
   ],
   "kpis_resumo": {
     "taxa_exito_carteira": 39.4,
-    "mes_fechado_pct": 47.7,
-    "destaque_bmg_meta": 285,
-    "destaque_bmg_realizado_anterior": 119
+    "mes_fechado_pct": 65.8,
+    "destaque_bmg_meta": 269,
+    "destaque_bmg_realizado_anterior": null
   }
 }
