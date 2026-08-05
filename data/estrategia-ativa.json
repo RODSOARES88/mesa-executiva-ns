@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-07-29T13:03:18",
+    "gerado_em": "2026-08-05T10:09:48",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -54,12 +54,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-07-29",
-    "data_br": "29/07/2026",
-    "snapshot_data": "29/07/2026",
+    "data": "2026-08-05",
+    "data_br": "05/08/2026",
+    "snapshot_data": "05/08/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Meta original 591 (email BMG mai) REVISTA pra 482 (email Beatriz 16/06 · destaque 232)",
-    "snapshot_thais": "29/07/2026",
+    "snapshot_thais": "05/08/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -108,8 +108,8 @@
     "total_meta": 566,
     "destaque_meta": 269,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 3,
-    "pace_diario_necessario_destaque": 89.7,
+    "dias_uteis_restantes_mes": 0,
+    "pace_diario_necessario_destaque": 269.0,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
