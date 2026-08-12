@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "gerado_em": "2026-08-05T11:29:38",
+    "gerado_em": "2026-08-12T10:09:30",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
-    "cenario": "fechamento_recente",
+    "cenario": null,
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
     "instrucoes_de_uso": "Sites operacionais devem fetch deste JSON e mostrar widget \"🎯 Decisão da Mesa Executiva\" no topo, abaixo da barra Quick Links."
   },
@@ -38,14 +38,9 @@
       "origem": "conselho"
     },
     {
-      "titulo": "Realocar 2 advogados de Fraude RS pra mutirão Modalidade (1ª quinzena)",
-      "razao_operacional": "RS Fraude está com 23.4% de êxito (pior cluster da carteira) · realocar 2 advogados temporariamente pra Cartão Modalidade na 1ª quinzena. Fraude RS pode esperar.",
-      "icone": "⚖️"
-    },
-    {
-      "titulo": "Reforma cirúrgica nos modelos de Fraude · CLO entrega 15/06",
-      "razao_operacional": "Modelos de Fraude SharePoint usam argumentos pré-2025 · CLO entrega revisão até 15/06 usando teses vencedoras reais (Tema 1.328, Tema 1.414). Frutos no mês seguinte.",
-      "icone": "🔧"
+      "titulo": "Mutirão de processos prontos pra encerrar",
+      "razao_operacional": "Encerramentos caíram 34% mas processos novos continuam entrando no mesmo ritmo · há processos com sentença prolatada represados",
+      "icone": "⚡"
     },
     {
       "titulo": "Priorizar argumento \"cita_cpc\" nas defesas de Modalidade",
@@ -54,20 +49,20 @@
     }
   ],
   "sessao": {
-    "data": "2026-08-05",
-    "data_br": "05/08/2026",
-    "snapshot_data": "05/08/2026",
-    "cenario": "fechamento_recente",
-    "snapshot_fechamento": "Meta original 591 (email BMG mai) REVISTA pra 482 (email Beatriz 16/06 · destaque 232)",
-    "snapshot_thais": "05/08/2026",
+    "data": "2026-08-12",
+    "data_br": "12/08/2026",
+    "snapshot_data": "12/08/2026",
+    "cenario": null,
+    "snapshot_fechamento": null,
+    "snapshot_thais": "12/08/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
     {
-      "tipo": "mes_fechou_baixo",
+      "tipo": "capacidade_reduzida",
       "severidade": "critica",
-      "titulo": "Junho fechou em 65.8% (317/482)",
-      "descricao": "Resultado abaixo da meta acordada com BMG · fonte: Meta original 591 (email BMG mai) REVISTA pra 482 (email Beatriz 16/06 · destaque 232)"
+      "titulo": "Capacidade operacional reduzida em 34%",
+      "descricao": "Receita extrapolada cai vs média Jan-Abr · ajuste de equipe em andamento"
     },
     {
       "tipo": "gap_modalidade_fraude",
@@ -103,18 +98,8 @@
     "frequencia": "153/513 vitórias em Modalidade",
     "pct": 29.8
   },
-  "meta_mes_ativo": {
-    "mes": "2026-07",
-    "total_meta": 566,
-    "destaque_meta": 269,
-    "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 0,
-    "pace_diario_necessario_destaque": 269.0,
-    "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
-    "avoid": "Distração com Fraude RS (adiada temporariamente)"
-  },
+  "meta_mes_ativo": null,
   "priorizar": [
-    "CARTÃO - NÃO RECONHECE MODALIDADE em MG e SP (mutirão dedicado · 49.6% êxito histórico)",
     "Argumento \"cita_cpc\" em defesas de Modalidade (29.8% das vitórias atuais)",
     "Sentenças já transitadas em julgado em Modalidade (menor risco recursal · despacho disciplinado)",
     "Acordos pós-sentença em casos com perda provável (reduz exposição e encerra mais rápido)"
@@ -126,8 +111,8 @@
   ],
   "kpis_resumo": {
     "taxa_exito_carteira": 39.4,
-    "mes_fechado_pct": 65.8,
-    "destaque_bmg_meta": 269,
+    "mes_fechado_pct": null,
+    "destaque_bmg_meta": null,
     "destaque_bmg_realizado_anterior": null
   }
 }
