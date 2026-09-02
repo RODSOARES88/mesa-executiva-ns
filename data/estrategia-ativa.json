@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-09-01T13:18:42",
+    "gerado_em": "2026-09-02T10:10:16",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": null,
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -49,12 +49,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-09-01",
-    "data_br": "01/09/2026",
-    "snapshot_data": "01/09/2026",
+    "data": "2026-09-02",
+    "data_br": "02/09/2026",
+    "snapshot_data": "02/09/2026",
     "cenario": null,
     "snapshot_fechamento": null,
-    "snapshot_thais": "01/09/2026",
+    "snapshot_thais": "02/09/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
