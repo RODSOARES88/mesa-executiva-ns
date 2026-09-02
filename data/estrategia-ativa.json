@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-09-02T10:13:58",
+    "gerado_em": "2026-09-02T10:15:11",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": null,
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
