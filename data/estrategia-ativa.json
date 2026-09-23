@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-09-16T10:17:51",
+    "gerado_em": "2026-09-23T11:10:04",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -59,12 +59,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-09-16",
-    "data_br": "16/09/2026",
-    "snapshot_data": "16/09/2026",
+    "data": "2026-09-23",
+    "data_br": "23/09/2026",
+    "snapshot_data": "23/09/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Email Lucas Muller Schnorr / Stefany Daku (BMG) 07/08/2026",
-    "snapshot_thais": "16/09/2026",
+    "snapshot_thais": "23/09/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -131,8 +131,8 @@
     "total_meta": 505,
     "destaque_meta": 242,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 11,
-    "pace_diario_necessario_destaque": 22.0,
+    "dias_uteis_restantes_mes": 6,
+    "pace_diario_necessario_destaque": 40.3,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
