@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-09-23T11:27:13",
+    "gerado_em": "2026-09-28T22:47:44",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -38,8 +38,8 @@
       "origem": "conselho"
     },
     {
-      "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/09 · meta BMG mantida em 242",
-      "razao_operacional": "Mês anterior fechou em 5% (12/253) nesse produto. Mês atual mantém meta em 242. Squad dedicada de despacho desde dia 1.",
+      "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/09 · meta BMG mantida em 318",
+      "razao_operacional": "Mês anterior fechou em 5% (12/253) nesse produto. Mês atual mantém meta em 318. Squad dedicada de despacho desde dia 1.",
       "icone": "⚡"
     },
     {
@@ -59,12 +59,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-09-23",
-    "data_br": "23/09/2026",
-    "snapshot_data": "23/09/2026",
+    "data": "2026-09-28",
+    "data_br": "28/09/2026",
+    "snapshot_data": "28/09/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "Email Lucas Muller Schnorr / Stefany Daku (BMG) 07/08/2026",
-    "snapshot_thais": "23/09/2026",
+    "snapshot_thais": "28/09/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -128,11 +128,11 @@
   },
   "meta_mes_ativo": {
     "mes": "2026-09",
-    "total_meta": 505,
-    "destaque_meta": 242,
+    "total_meta": 664,
+    "destaque_meta": 318,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 6,
-    "pace_diario_necessario_destaque": 40.3,
+    "dias_uteis_restantes_mes": 3,
+    "pace_diario_necessario_destaque": 106.0,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
@@ -150,7 +150,7 @@
   "kpis_resumo": {
     "taxa_exito_carteira": 39.4,
     "mes_fechado_pct": 51.3,
-    "destaque_bmg_meta": 242,
+    "destaque_bmg_meta": 318,
     "destaque_bmg_realizado_anterior": 12
   }
 }
