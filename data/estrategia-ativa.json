@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-09-30T10:06:39",
+    "gerado_em": "2026-10-02T20:32:40",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -38,8 +38,8 @@
       "origem": "conselho"
     },
     {
-      "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/09 · meta BMG mantida em 318",
-      "razao_operacional": "Mês anterior fechou em 5% (12/253) nesse produto. Mês atual mantém meta em 318. Squad dedicada de despacho desde dia 1.",
+      "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/10 · meta BMG 330 (era 318)",
+      "razao_operacional": "Mês anterior fechou em 2,3% da carteira nesse produto. Mês atual: meta BMG 330 (era 318). Squad dedicada de despacho desde o dia 1.",
       "icone": "⚡"
     },
     {
@@ -48,9 +48,19 @@
       "icone": "⚖️"
     },
     {
-      "titulo": "Reforma cirúrgica nos modelos de Fraude · CLO entrega 15/06",
-      "razao_operacional": "Modelos de Fraude SharePoint usam argumentos pré-2025 · CLO entrega revisão até 15/06 usando teses vencedoras reais (Tema 1.328, Tema 1.414). Frutos no mês seguinte.",
-      "icone": "🔧"
+      "titulo": "Ritmo de 33/dia útil desde a 1ª semana · meta 691",
+      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 32,9/d,u, (One Page de fechamento),",
+      "icone": "⏱️"
+    },
+    {
+      "titulo": "Ampliar pautas de acordo · hoje 5,2% dos encerramentos (rede 7,4%)",
+      "razao_operacional": "Montar pauta de acordo nos produtos foco desde a 1ª semana; perda provável primeiro.",
+      "icone": "🤝"
+    },
+    {
+      "titulo": "Impulsões para extinção · começar pela lista de possíveis aptos ao encerramento",
+      "razao_operacional": "Coordenação confere a aba 1 (força 4 primeiro) e o Exyon antes de pedir o encerramento.",
+      "icone": "📑"
     },
     {
       "titulo": "Priorizar argumento \"cita_cpc\" nas defesas de Modalidade",
@@ -59,38 +69,50 @@
     }
   ],
   "sessao": {
-    "data": "2026-09-30",
-    "data_br": "30/09/2026",
-    "snapshot_data": "30/09/2026",
+    "data": "2026-10-02",
+    "data_br": "02/10/2026",
+    "snapshot_data": "02/10/2026",
     "cenario": "fechamento_recente",
-    "snapshot_fechamento": "Email Lucas Muller Schnorr / Stefany Daku (BMG) 07/08/2026",
-    "snapshot_thais": "30/09/2026",
+    "snapshot_fechamento": "One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 02/10/2026 · base 31/08",
+    "snapshot_thais": "02/10/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
     {
       "tipo": "mes_fechou_baixo",
       "severidade": "critica",
-      "titulo": "Agosto fechou em 51.3% (271/528)",
-      "descricao": "Resultado abaixo da meta acordada com BMG · fonte: Email Lucas Muller Schnorr / Stefany Daku (BMG) 07/08/2026"
+      "titulo": "Setembro fechou em 52.3% (347/664)",
+      "descricao": "Resultado abaixo da meta acordada com BMG · fonte: One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 02/10/2026 · base 31/08"
     },
     {
       "tipo": "destaque_bmg_falhou",
       "severidade": "critica",
-      "titulo": "CARTÃO - NÃO RECONHECE MODALIDADE falhou em 4.7% (12/253)",
-      "descricao": "Produto destacado pelo BMG no email. Onde tínhamos vantagem estrutural · gargalo foi operacional, não jurídico."
+      "titulo": "CARTÃO - NÃO RECONHECE MODALIDADE fechou em 2,3% da carteira (meta 5,7%)",
+      "descricao": "Produto destacado pelo BMG · % do One Page de fechamento (o banco não manda o encerrado por produto no fechamento)."
     },
     {
       "tipo": "destaque_bmg_falhou",
       "severidade": "critica",
-      "titulo": "CARTÃO BENEFÍCIO - NÃO RECONHECE MODALIDADE falhou em 0.0% (0/15)",
-      "descricao": "Produto destacado pelo BMG no email. Onde tínhamos vantagem estrutural · gargalo foi operacional, não jurídico."
+      "titulo": "CARTÃO - OUTROS fechou em 3,2% da carteira (meta 5,7%)",
+      "descricao": "Produto destacado pelo BMG · % do One Page de fechamento (o banco não manda o encerrado por produto no fechamento)."
     },
     {
       "tipo": "destaque_bmg_falhou",
       "severidade": "critica",
-      "titulo": "CARTÃO BENEFÍCIO - OUTROS falhou em 0.0% (0/13)",
-      "descricao": "Produto destacado pelo BMG no email. Onde tínhamos vantagem estrutural · gargalo foi operacional, não jurídico."
+      "titulo": "CARTÃO BENEFÍCIO - NÃO RECONHECE MODALIDADE fechou em 1,6% da carteira (meta 5,7%)",
+      "descricao": "Produto destacado pelo BMG · % do One Page de fechamento (o banco não manda o encerrado por produto no fechamento)."
+    },
+    {
+      "tipo": "acordo_abaixo_rede",
+      "severidade": "critica",
+      "titulo": "Acordo é 5,2% dos encerramentos (rede 7,4%)",
+      "descricao": "O banco recomenda AMPLIAR AS PAUTAS DE ACORDO e as IMPULSÕES PARA EXTINÇÃO desde a 1ª semana (One Page de fechamento)."
+    },
+    {
+      "tipo": "ritmo_exigido",
+      "severidade": "critica",
+      "titulo": "Meta do mês exige 32,9/dia útil · o mês anterior rodou 16,5",
+      "descricao": "Acelerar 99% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
     },
     {
       "tipo": "gap_modalidade_fraude",
@@ -127,12 +149,12 @@
     "pct": 29.8
   },
   "meta_mes_ativo": {
-    "mes": "2026-09",
-    "total_meta": 664,
-    "destaque_meta": 318,
+    "mes": "2026-10",
+    "total_meta": 691,
+    "destaque_meta": 330,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 1,
-    "pace_diario_necessario_destaque": 318.0,
+    "dias_uteis_restantes_mes": 21,
+    "pace_diario_necessario_destaque": 15.7,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
@@ -143,14 +165,14 @@
     "Acordos pós-sentença em casos com perda provável (reduz exposição e encerra mais rápido)"
   ],
   "evitar": [
-    "Acordos pré-sentença em <b>Modalidade</b> em MG (temos 49.6% de êxito — vale levar até a sentença)",
+    "Acordos pré-sentença em <b>Modalidade</b> em MG (temos 49.6% de êxito — vale levar até a sentença) · ⚠️ em tensão com o pedido do banco de ampliar acordos (One Page 02/10): acordo onde a perda é provável",
     "Concentrar tempo de advogado sênior em <b>Fraude RS</b> (23.4% êxito · rende mais em Modalidade)",
     "Distribuir capacidade igualmente — concentrar no destaque do BMG"
   ],
   "kpis_resumo": {
     "taxa_exito_carteira": 39.4,
-    "mes_fechado_pct": 51.3,
-    "destaque_bmg_meta": 318,
-    "destaque_bmg_realizado_anterior": 12
+    "mes_fechado_pct": 52.3,
+    "destaque_bmg_meta": 330,
+    "destaque_bmg_realizado_anterior": 104
   }
 }
