@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-10-08T19:45:55",
+    "gerado_em": "2026-10-13T17:26:45",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -48,8 +48,8 @@
       "icone": "⚖️"
     },
     {
-      "titulo": "Ritmo de 33/dia útil desde a 1ª semana · meta 691",
-      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 32,9/d,u, (One Page de fechamento),",
+      "titulo": "Ritmo de 47/dia útil desde a 1ª semana · meta 686",
+      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 46,8/d,u, (One Page de fechamento),",
       "icone": "⏱️"
     },
     {
@@ -69,12 +69,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-10-08",
-    "data_br": "08/10/2026",
-    "snapshot_data": "08/10/2026",
+    "data": "2026-10-13",
+    "data_br": "13/10/2026",
+    "snapshot_data": "13/10/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 02/10/2026 · base 31/08",
-    "snapshot_thais": "08/10/2026",
+    "snapshot_thais": "13/10/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -111,8 +111,8 @@
     {
       "tipo": "ritmo_exigido",
       "severidade": "critica",
-      "titulo": "Meta do mês exige 32,9/dia útil · o mês anterior rodou 16,5",
-      "descricao": "Acelerar 99% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
+      "titulo": "Meta do mês exige 46,8/dia útil · o mês anterior rodou 16,5",
+      "descricao": "Acelerar 388% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
     },
     {
       "tipo": "gap_modalidade_fraude",
@@ -150,11 +150,11 @@
   },
   "meta_mes_ativo": {
     "mes": "2026-10",
-    "total_meta": 691,
+    "total_meta": 686,
     "destaque_meta": 330,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 17,
-    "pace_diario_necessario_destaque": 19.4,
+    "dias_uteis_restantes_mes": 14,
+    "pace_diario_necessario_destaque": 23.6,
     "foco": "CARTÃO - NÃO RECONHECE MODALIDADE desde dia 1 (mutirão dedicado)",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
