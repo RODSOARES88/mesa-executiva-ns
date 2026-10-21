@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-10-16T11:12:17",
+    "gerado_em": "2026-10-21T10:29:26",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -69,12 +69,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-10-16",
-    "data_br": "16/10/2026",
-    "snapshot_data": "16/10/2026",
+    "data": "2026-10-21",
+    "data_br": "21/10/2026",
+    "snapshot_data": "21/10/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 02/10/2026 · base 31/08",
-    "snapshot_thais": "16/10/2026",
+    "snapshot_thais": "21/10/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -153,8 +153,8 @@
     "total_meta": 686,
     "destaque_meta": 330,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 11,
-    "pace_diario_necessario_destaque": 30.0,
+    "dias_uteis_restantes_mes": 8,
+    "pace_diario_necessario_destaque": 41.2,
     "foco": "Concentrar nos 3 clusters de cartão que somam 580 dos 594 que faltam: Cartão–NR modalidade (27/330) · Cartão–outros (57/315) · Cartão benefício–NR modalidade (2/21) — One Page 15/10",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
