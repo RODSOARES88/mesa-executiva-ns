@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-10-28T10:11:13",
+    "gerado_em": "2026-10-28T11:40:15",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -38,8 +38,8 @@
       "origem": "conselho"
     },
     {
-      "titulo": "Mutirão de CARTÃO - OUTROS desde 01/10 · meta BMG 315 (era 318)",
-      "razao_operacional": "Mês anterior fechou em 2,3% da carteira nesse produto. Mês atual: meta BMG 315 (era 318). Squad dedicada de despacho desde o dia 1.",
+      "titulo": "Mutirão de CARTÃO - NÃO RECONHECE MODALIDADE desde 01/10 · meta BMG 329 (era 318)",
+      "razao_operacional": "Mês anterior fechou em 2,3% da carteira nesse produto. Mês atual: meta BMG 329 (era 318). Squad dedicada de despacho desde o dia 1.",
       "icone": "⚡"
     },
     {
@@ -48,8 +48,8 @@
       "icone": "⚖️"
     },
     {
-      "titulo": "Ritmo de 49/dia útil desde a 1ª semana · meta 360",
-      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 49,3/d,u, (One Page de fechamento),",
+      "titulo": "Ritmo de 252/dia útil desde a 1ª semana · meta 685",
+      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 252,5/d,u, (One Page de fechamento),",
       "icone": "⏱️"
     },
     {
@@ -87,19 +87,19 @@
     {
       "tipo": "destaque_bmg_falhou",
       "severidade": "critica",
-      "titulo": "CARTÃO - NÃO RECONHECE MODALIDADE fechou em 2,3% da carteira (meta 3,0%)",
+      "titulo": "CARTÃO - NÃO RECONHECE MODALIDADE fechou em 2,3% da carteira (meta 5,7%)",
       "descricao": "Produto destacado pelo BMG · % do One Page de fechamento (o banco não manda o encerrado por produto no fechamento)."
     },
     {
       "tipo": "destaque_bmg_falhou",
       "severidade": "critica",
-      "titulo": "CARTÃO - OUTROS fechou em 3,2% da carteira (meta 3,0%)",
+      "titulo": "CARTÃO - OUTROS fechou em 3,2% da carteira (meta 5,7%)",
       "descricao": "Produto destacado pelo BMG · % do One Page de fechamento (o banco não manda o encerrado por produto no fechamento)."
     },
     {
       "tipo": "destaque_bmg_falhou",
       "severidade": "critica",
-      "titulo": "CARTÃO BENEFÍCIO - NÃO RECONHECE MODALIDADE fechou em 1,6% da carteira (meta 3,0%)",
+      "titulo": "CARTÃO BENEFÍCIO - NÃO RECONHECE MODALIDADE fechou em 1,6% da carteira (meta 5,7%)",
       "descricao": "Produto destacado pelo BMG · % do One Page de fechamento (o banco não manda o encerrado por produto no fechamento)."
     },
     {
@@ -111,8 +111,8 @@
     {
       "tipo": "ritmo_exigido",
       "severidade": "critica",
-      "titulo": "Meta do mês exige 49,3/dia útil · o mês anterior rodou 16,5",
-      "descricao": "Acelerar 414% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
+      "titulo": "Meta do mês exige 252,5/dia útil · o mês anterior rodou 16,5",
+      "descricao": "Acelerar 2558% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
     },
     {
       "tipo": "gap_modalidade_fraude",
@@ -150,16 +150,16 @@
   },
   "meta_mes_ativo": {
     "mes": "2026-10",
-    "total_meta": 360,
-    "destaque_meta": 315,
-    "destaque_nome": "CARTÃO - OUTROS",
+    "total_meta": 685,
+    "destaque_meta": 329,
+    "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
     "dias_uteis_restantes_mes": 3,
-    "pace_diario_necessario_destaque": 105.0,
-    "foco": "Concentrar nos 3 clusters de cartão que somam 580 dos 594 que faltam: Cartão–NR modalidade (27/330) · Cartão–outros (57/315) · Cartão benefício–NR modalidade (2/21) — One Page 15/10",
+    "pace_diario_necessario_destaque": 109.7,
+    "foco": "Concentrar nos 3 clusters de cartão que somam 497 dos 505 que faltam: Cartão–NR modalidade (62/329) · Cartão–outros (102/315) · Cartão benefício–NR modalidade (4/21) — One Page 28/10 · 2 dias úteis restantes",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
   "priorizar": [
-    "CARTÃO - OUTROS em MG e SP (mutirão dedicado · 49.6% êxito histórico)",
+    "CARTÃO - NÃO RECONHECE MODALIDADE em MG e SP (mutirão dedicado · 49.6% êxito histórico)",
     "Argumento \"cita_cpc\" em defesas de Modalidade (29.8% das vitórias atuais)",
     "Sentenças já transitadas em julgado em Modalidade (menor risco recursal · despacho disciplinado)",
     "Acordos pós-sentença em casos com perda provável (reduz exposição e encerra mais rápido)"
@@ -172,7 +172,7 @@
   "kpis_resumo": {
     "taxa_exito_carteira": 39.4,
     "mes_fechado_pct": 52.3,
-    "destaque_bmg_meta": 4,
+    "destaque_bmg_meta": 329,
     "destaque_bmg_realizado_anterior": 104
   }
 }
