@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-10-29T15:47:05",
+    "gerado_em": "2026-11-01T09:21:50",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -48,11 +48,6 @@
       "icone": "⚖️"
     },
     {
-      "titulo": "Ritmo de 489/dia útil desde a 1ª semana · meta 685",
-      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 489,0/d,u, (One Page de fechamento),",
-      "icone": "⏱️"
-    },
-    {
       "titulo": "Ampliar pautas de acordo · hoje 5,2% dos encerramentos (rede 7,4%)",
       "razao_operacional": "Montar pauta de acordo nos produtos foco desde a 1ª semana; perda provável primeiro.",
       "icone": "🤝"
@@ -69,12 +64,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-10-29",
-    "data_br": "29/10/2026",
-    "snapshot_data": "29/10/2026",
+    "data": "2026-11-01",
+    "data_br": "01/11/2026",
+    "snapshot_data": "01/11/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 02/10/2026 · base 31/08",
-    "snapshot_thais": "29/10/2026",
+    "snapshot_thais": "01/11/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -107,12 +102,6 @@
       "severidade": "critica",
       "titulo": "Acordo é 5,2% dos encerramentos (rede 7,4%)",
       "descricao": "O banco recomenda AMPLIAR AS PAUTAS DE ACORDO e as IMPULSÕES PARA EXTINÇÃO desde a 1ª semana (One Page de fechamento)."
-    },
-    {
-      "tipo": "ritmo_exigido",
-      "severidade": "critica",
-      "titulo": "Meta do mês exige 489,0/dia útil · o mês anterior rodou 16,5",
-      "descricao": "Acelerar 4890% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
     },
     {
       "tipo": "gap_modalidade_fraude",
@@ -153,9 +142,9 @@
     "total_meta": 685,
     "destaque_meta": 329,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 2,
-    "pace_diario_necessario_destaque": 164.5,
-    "foco": "Concentrar nos 3 clusters de cartão que somam 481 dos 489 que faltam: Cartão–NR modalidade (69/329) · Cartão–outros (111/315) · Cartão benefício–NR modalidade (4/21) — One Page 29/10 · 1 dia útil restante",
+    "dias_uteis_restantes_mes": 0,
+    "pace_diario_necessario_destaque": 329.0,
+    "foco": "Concentrar nos 3 clusters de cartão que somam 472 dos 480 que faltaram: Cartão–NR modalidade (73/329) · Cartão–outros (115/315) · Cartão benefício–NR modalidade (5/21) — One Page 30/10 · último dia útil",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
   "priorizar": [
