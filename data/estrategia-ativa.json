@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-11-01T09:21:50",
+    "gerado_em": "2026-11-04T11:18:15",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -64,12 +64,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-11-01",
-    "data_br": "01/11/2026",
-    "snapshot_data": "01/11/2026",
+    "data": "2026-11-04",
+    "data_br": "04/11/2026",
+    "snapshot_data": "04/11/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 02/10/2026 · base 31/08",
-    "snapshot_thais": "01/11/2026",
+    "snapshot_thais": "04/11/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
