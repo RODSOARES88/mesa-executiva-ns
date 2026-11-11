@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-11-10T14:06:12",
+    "gerado_em": "2026-11-11T10:42:45",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -69,12 +69,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-11-10",
-    "data_br": "10/11/2026",
-    "snapshot_data": "10/11/2026",
+    "data": "2026-11-11",
+    "data_br": "11/11/2026",
+    "snapshot_data": "11/11/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 03/11/2026 · base 30/09",
-    "snapshot_thais": "10/11/2026",
+    "snapshot_thais": "11/11/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -147,8 +147,8 @@
     "total_meta": 619,
     "destaque_meta": 298,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 15,
-    "pace_diario_necessario_destaque": 19.9,
+    "dias_uteis_restantes_mes": 14,
+    "pace_diario_necessario_destaque": 21.3,
     "foco": "Cartão–NR modalidade, Cartão–outros e CB–NR modalidade somam 565 dos 580 que faltam",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
