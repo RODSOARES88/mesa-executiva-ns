@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-11-11T12:16:03",
+    "gerado_em": "2026-11-16T14:52:04",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -48,8 +48,8 @@
       "icone": "⚖️"
     },
     {
-      "titulo": "Ritmo de 45/dia útil desde a 1ª semana · meta 619",
-      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 44,6/d,u, (One Page de fechamento),",
+      "titulo": "Ritmo de 51/dia útil desde a 1ª semana · meta 619",
+      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 51,3/d,u, (One Page de fechamento),",
       "icone": "⏱️"
     },
     {
@@ -69,12 +69,12 @@
     }
   ],
   "sessao": {
-    "data": "2026-11-11",
-    "data_br": "11/11/2026",
-    "snapshot_data": "11/11/2026",
+    "data": "2026-11-16",
+    "data_br": "16/11/2026",
+    "snapshot_data": "16/11/2026",
     "cenario": "fechamento_recente",
     "snapshot_fechamento": "One Page de FECHAMENTO · Torre de Controle BMG (Thais Santos, Jurídico BMG) · e-mail 03/11/2026 · base 30/09",
-    "snapshot_thais": "11/11/2026",
+    "snapshot_thais": "16/11/2026",
     "estoque_total": 10908
   },
   "bandeiras": [
@@ -105,7 +105,7 @@
     {
       "tipo": "ritmo_exigido",
       "severidade": "critica",
-      "titulo": "Meta do mês exige 44,6/dia útil · o mês anterior rodou 10,1",
+      "titulo": "Meta do mês exige 51,3/dia útil · o mês anterior rodou 10,1",
       "descricao": "Acelerar 0% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
     },
     {
@@ -147,9 +147,9 @@
     "total_meta": 619,
     "destaque_meta": 298,
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
-    "dias_uteis_restantes_mes": 14,
-    "pace_diario_necessario_destaque": 21.3,
-    "foco": "Cartão–NR modalidade, Cartão–outros e CB–NR modalidade somam 565 dos 580 que faltam",
+    "dias_uteis_restantes_mes": 11,
+    "pace_diario_necessario_destaque": 27.1,
+    "foco": "Cartão–NR modalidade, Cartão–outros e CB–NR modalidade somam 552 dos 564 que faltam",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
   "priorizar": [
