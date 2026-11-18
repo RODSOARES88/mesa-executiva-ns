@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "gerado_em": "2026-11-18T12:16:19",
+    "gerado_em": "2026-11-18T14:06:50",
     "fonte": "Mesa Executiva NS · gerado automaticamente por _gera_estrategia.py v2",
     "cenario": "fechamento_recente",
     "descricao": "Diretriz da Mesa Executiva pros sites operacionais. Adaptativa ao cenário (fechamento_recente / em_curso / apenas_fechado).",
@@ -48,8 +48,8 @@
       "icone": "⚖️"
     },
     {
-      "titulo": "Ritmo de 51/dia útil desde a 1ª semana · meta 619",
-      "razao_operacional": "Acompanhar encerramentos por dia útil desde o dia 1 contra 51,3/d,u, (One Page de fechamento),",
+      "titulo": "Ritmo de 75/dia útil nos 7 dias úteis restantes · meta 619",
+      "razao_operacional": "Acompanhar encerramentos por dia útil contra 75,4/d.u. até o fim do mês (One Page parcial 18/11).",
       "icone": "⏱️"
     },
     {
@@ -105,7 +105,7 @@
     {
       "tipo": "ritmo_exigido",
       "severidade": "critica",
-      "titulo": "Meta do mês exige 51,3/dia útil · o mês anterior rodou 10,1",
+      "titulo": "Meta do mês exige 75,4/dia útil · o mês anterior rodou 10,1",
       "descricao": "Acelerar 0% desde a 1ª semana — o banco pediu ritmo sem concentrar no fim do mês,"
     },
     {
@@ -149,7 +149,7 @@
     "destaque_nome": "CARTÃO - NÃO RECONHECE MODALIDADE",
     "dias_uteis_restantes_mes": 9,
     "pace_diario_necessario_destaque": 33.1,
-    "foco": "Cartão–NR modalidade, Cartão–outros e CB–NR modalidade somam 552 dos 564 que faltam",
+    "foco": "Cartão–NR modalidade, Cartão–outros e CB–NR modalidade somam 518 dos 528 que faltam",
     "avoid": "Distração com Fraude RS (adiada temporariamente)"
   },
   "priorizar": [
